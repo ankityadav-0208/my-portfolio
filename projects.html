@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Ankit Yadav</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">Ankit<span>.</span></div>
+            <ul class="nav-links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/skills.html">Skills</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/achievement.html">Achievements</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+</header>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="/images/smartattendancesystem1.png" alt="Portfolio Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Attendance System (QR-Based)</h3>
+                        <p>
+                            A secure and intelligent web-based attendance system designed to eliminate proxy attendance and automate the entire attendance process. 
+                            This system uses a dynamic QR code mechanism combined with real-time location validation to ensure that only students who are physically 
+                            present in the classroom can mark their attendance. The application is built using modern web technologies and deployed online for easy access.
+                        </p>
+
+                        <p>
+                            The system generates a unique QR code that refreshes every 10 seconds, making it impossible for students to reuse or share the code. 
+                            When a student scans the QR code, the system verifies their real-time location and records attendance instantly with accurate timestamps. 
+                            All data is securely stored in a MongoDB database and can be accessed by administrators for monitoring and analysis.
+                        </p>
+
+                        <p><strong>What this project demonstrates:</strong></p>
+                        <ul class="project-features">
+                            <li><strong>Anti-proxy mechanism:</strong> Implementation of a dynamic QR code that refreshes every 10 seconds to prevent unauthorized attendance marking</li>
+                            <li><strong>Location-based validation:</strong> Ensures that attendance is marked only when the student is physically present in the required location</li>
+                            <li><strong>Real-time data handling:</strong> Instant attendance marking with accurate timestamp and seamless data flow between frontend and database</li>
+                            <li><strong>Full-stack development:</strong> Integration of frontend (React.js) with backend database (MongoDB) for efficient data management</li>
+                            <li><strong>Deployment & accessibility:</strong> Hosted using Render, making the application accessible from anywhere without local setup</li>
+                            <li><strong>User-friendly interface:</strong> Clean and responsive UI designed for ease of use by both students and administrators</li>
+                        </ul>
+
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Render</span>
+                            <span class="project-tag">Geolocation API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="project-card fade-in delay-1">
+                    <div class="project-image">
+                        <img src="images/project-placeholder1.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>A weather application that displays current weather conditions and forecasts for any city. Features a clean interface with dynamic data updates.</p>
+                        <p><strong>Key features:</strong></p>
+                        <ul class="project-features">
+                            <li>Fetch and display weather data from API</li>
+                            <li>Responsive design with intuitive UI</li>
+                            <li>City search functionality</li>
+                            <li>Temperature unit conversion</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">API Integration</span>
+                            <span class="project-tag">CSS Grid</span>
+                            <span class="project-tag">Async/Await</span>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="project-card fade-in delay-2">
+                    <div class="project-image">
+                        <img src="images/project-placeholder2.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A simple yet effective task management application that helps users organize their daily tasks with features for adding, editing, and tracking completion.</p>
+                        <p><strong>Key features:</strong></p>
+                        <ul class="project-features">
+                            <li>Add, edit, and delete tasks</li>
+                            <li>Mark tasks as complete</li>
+                            <li>Local storage for data persistence</li>
+                            <li>Clean and minimal interface</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Local Storage</span>
+                            <span class="project-tag">DOM Manipulation</span>
+                            <span class="project-tag">CSS Flexbox</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            
+            <div class="text-center" style="margin-top: 4rem;">
+                 <a href="achievement.html" class="btn btn-outline">My Certificates</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
